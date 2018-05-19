@@ -13,10 +13,10 @@
       '(
         company
         (company-go :toggle (configuration-layer/package-usedp 'company))
-        flycheck
-        (flycheck-gometalinter :toggle (and go-use-gometalinter
-                                            (configuration-layer/package-usedp
-                                             'flycheck)))
+        ;; flycheck
+        ;; (flycheck-gometalinter :toggle (and go-use-gometalinter
+        ;;                                     (configuration-layer/package-usedp
+        ;;                                      'flycheck)))
         ggtags
         helm-gtags
         go-eldoc
